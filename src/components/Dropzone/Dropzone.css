@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dropzone-container {
+	padding: 4rem;
+	border: 1px dashed #ccc;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.dropzone-container:hover {
+	border: 1px dashed rgb(139, 163, 59);
+	color: rgb(139, 163, 59);
+}
+
+.preview .preview-img {
+	width: 6rem;
+	height: 6rem;
+	object-fit: cover;
+}
+.file-data .file-name {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.file-data .file-size {
+	font-size: 1rem;
+	color: #777;
+}

@@ -1,0 +1,16 @@
+.custom-toast {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	width: 300px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	animation: slideIn 0.5s ease-in-out, slideOut 0.5s ease-in-out 2.5s forwards;
+}
